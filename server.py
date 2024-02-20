@@ -5,11 +5,9 @@ import cv2
 import math
 import time
 import cvzone
-import threading
 import  mediapipe as mp
 import numpy as np
 from ultralytics import YOLO
-import queue
 import os
 import base64
 import io

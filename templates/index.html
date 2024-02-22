@@ -244,10 +244,7 @@
         .pulse-bubble-5 {
             animation: pulse .4s ease .4s infinite alternate;
         }
-        #videoElement {
-    transform: scaleX(-1);
-}
-
+        
     </style>
 </head>
 
@@ -276,7 +273,7 @@
                 <div class="circular-container"
                     style="position: relative;width: 85%;border-radius: 50%;margin-left: auto;margin-right: auto;overflow: hidden;">
                     <video id="videoElement" autoplay playsinline
-                        style="position: absolute;width: 150%;left:50%;z-index: 0;transform: translateX(-50%);"></video>
+                        style="position: absolute;width: 100%;left:50%;z-index: 0;transform: translateX(-50%) scaleX(-1);"></video>
 
 
 
